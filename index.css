@@ -1,0 +1,27 @@
+#logoimage{
+    animation: animate 3s linear infinite;
+    transition: .5s;
+}
+@keyframes animate {
+    0%{
+        transform: rotate(360deg);
+    }
+}
+h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: yellow;
+}
+#namecorona{
+    animation: nameanimate 1s linear infinite;
+    transition: .5s;
+}
+@keyframes nameanimate {
+    0%{
+        transform: scale(1.5);
+    }
+}
+#headtag{
+    background-color: darkorchid;
+    color: rgb(246, 255, 0);
+}
